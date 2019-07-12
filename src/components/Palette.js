@@ -23,6 +23,7 @@ const Palette = ({ selected, onSelect }) => {
 						color={color}
 						key={color}
 						active={selected === color}
+						onClick={() => onSelect(color)}
 					/>
 				))}
 			</div>
